@@ -1,7 +1,7 @@
 from typing import Optional, List
 
-mylist = [1, 2, 3, 3, 3, 3, 4, 5, 6, 7, 9, 9, 0]
+mylist = [1, 2, 7, 3, 3, 3, 4, 5, 6, 3, 1, 2, 0]
 
+str1 = "hn2r#fe w2"
 
-tar=20
-print(tar-mylist)
+print(range(len(str1)))

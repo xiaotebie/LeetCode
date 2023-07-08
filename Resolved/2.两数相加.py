@@ -78,6 +78,10 @@ carry = sum // 10
 current.next = ListNode(sum % 10)
 因为例如：6+9=15,则进一位，除以10的余数5为当前节点值
 
+
+需要注意的是这里用到了哑节点的技术：
+current 节点一开始是指向 dummy_head，但是最后返回的是节点dummy_head.next
+跳过了初始的节点：dummy_head = ListNode(0)
 """
 
 
